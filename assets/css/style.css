@@ -115,8 +115,11 @@ h6 {
 }
 
 .logo{
-  width: 100%;
-  height: 85px;
+  width: 60%;
+  height: 65px;
+}
+.logoh{
+  height: 75px;
 }
 
 /*------------Navigation Menu-------------------*/
