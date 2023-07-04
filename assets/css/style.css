@@ -13,18 +13,7 @@ a:hover {
   text-decoration: none;
 }
 
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Raleway", sans-serif;
-} */
-
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
+/*------------Back to top button--------------------*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -127,7 +116,7 @@ h6 {
 * Desktop Navigation 
 */
 .navbar {
-  padding: 0;
+  padding:29px 140px;
 }
 
 .navbar ul {
@@ -347,10 +336,14 @@ h6 {
 }
 
 /*----------------Hero Section----------------------*/
+
+.animateicon{
+  text-align: center !important;
+}
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/testimonials/8.jpg")center bottom;
+  background: url("../img/firefighter-spraying-down-fire-from-oil-tanker-truck-accident.jpg")center bottom;
   background-size: cover;
   position: relative;
 }
@@ -438,7 +431,7 @@ h6 {
   }
 
   #hero h1 {
-    font-size: 28px;
+    font-size: 28px !important;
     line-height: 36px;
   }
 
@@ -446,6 +439,7 @@ h6 {
     font-size: 20px;
     line-height: 24px;
   }
+  
 }
 
 /*---------------Sections General----------------------*/
@@ -1255,6 +1249,8 @@ section {
 }
 
 /*------Footer ---------*/
+
+
 .phno{
   font-family:'Open Sans', sans-serif;
 }
@@ -1940,6 +1936,10 @@ section {
     opacity: 0;
   }
 }
+
+
+
+
 
 
 
